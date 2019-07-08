@@ -16,7 +16,7 @@ RUN yum repolist --disablerepo="*" && \
 RUN yum -y install tar \
     && yum clean all && \
       yum -y install openssl openssh openssh-server \
-      lsof lshw net-tools numactl python-httplib2 \
+      lsof lshw net-tools numactl bzip2 python-httplib2 \
       sysstati wget screen psmisc zip unzip \
       gzip
 

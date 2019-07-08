@@ -76,5 +76,5 @@ docker build --no-cache \
 echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 echo Pushing ${IMAGE}
 echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-docker push ${IMAGE}
-docker rmi ${IMAGE}
+#docker push ${IMAGE}
+#docker rmi ${IMAGE}
